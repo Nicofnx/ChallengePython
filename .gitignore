@@ -1,0 +1,25 @@
+# Archivos y carpetas generados por el entorno virtual (por ejemplo, venv o .venv)
+venv/
+__pycache__/
+
+# Archivos de registro y registros generados por la aplicación
+*.log
+logs/
+
+# Archivos de configuración local (por ejemplo, .env) que contienen secretos o información específica del entorno
+.env
+
+# Archivo de la base de datos SQLite (puede ser incluido o excluido según tus necesidades)
+mydatabase.db
+
+# Carpeta __pycache__ generada por Python
+__pycache__/
+
+# Carpeta generada por el sistema operativo (por ejemplo, .DS_Store en macOS)
+.DS_Store
+
+# Carpeta generada por el editor (por ejemplo, .vscode/)
+.vscode/
+
+# Carpeta generada por Jupyter Notebook (por ejemplo, .ipynb_checkpoints/)
+.ipynb_checkpoints/
