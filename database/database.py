@@ -1,10 +1,10 @@
 import sqlite3
 
-# Conectar a la base de datos SQLite (si no existe, se creará)
+# Conecto a la base de datos SQLite (si no existe, se creará)
 conn = sqlite3.connect("mydatabase.db")
 cursor = conn.cursor()
 
-# Crear la tabla "documents" si no existe
+# Creo la tabla "documents" si no existe
 cursor.execute("""
     CREATE TABLE IF NOT EXISTS documents (
         ID INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -15,8 +15,8 @@ cursor.execute("""
     )
 """)
 
-# Guardar los cambios en la base de datos
+# Guardo los cambios 
 conn.commit()
 
-# Cerrar la conexión a la base de datos
+# Cierro la conexión
 conn.close()
